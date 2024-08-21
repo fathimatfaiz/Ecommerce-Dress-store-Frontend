@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--header section starts -->
+<header>
+<nav class="nav-container flex-design">
+    <div>
+        <nav>
+        <div class="logo">
+            <img src="Images/logo.jpeg">
+            
+        </div>
+    </div>
+  
+
+<ul class="navbar flex-design">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about-us.html">About</a></li>
+  <li><a href="collection.html">Collection</a></li>
+  <li><a href="book.html">Book</a></li>
+  <li><a href="account.html">Account</a></li>
+
+</ul> 
+<div class="arrow">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+</div>
+</nav>
+</div>
+<div class="text-center">
+    <p>Welcome to</p>
+    <h1>Lee Boutique</h1>
+    
+
+</div>
+<script src="app.js"></script>
+
+</header>
+<body>
+  <section class="book mt mb content">
+    <h1>Bride Dress Style Quiz Form</h1>
+    
+    <form action="connect.php" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="firstName" ><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lastName" ><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" ><br>
+            <label for="phone">Phone No:</label><br>
+            <input type="phone" id="phone" name="phoneNo" ><br>
+
+
+            <label for="birthday">Wedding Date:</label>
+               <input type="date" id="weddingdate" name="weddingdate">
+
+
+  <h3>Your height:</h3>
+ 
+    <input type="radio" id="under 6'0''" name="height" value="under 6'0''">
+    <label for="under 6'0''">Under 6'0''</label>
+    <input type="radio" id="over 6'0'' " name="height" value="over 6'0''">
+    <label for="over 6'0''">Over 6'0'' </label><br>
+
+    
+    
+    <h3>Best match of yur body size:</h3>
+      <input type="radio" id="size1" name="size" value="Petite">
+      <label for="size1">Petite</label><br>
+      <input type="radio" id="size2" name="size" value="Tall">
+      <label for="size2">Tall</label><br>  
+      <input type="radio" id="size3" name="size" value="plus-sized">
+      <label for="size3">Plus-sized</label><br>
+      <input type="radio" id="size4" name="size" value="busty">
+      <label for="size4">Busty</label><br>
+      <input type="radio" id="size5" name="size" value="maternity">
+      <label for="size5">Maternity</label><br>
+      <input type="radio" id="size6" name="size" value="smallbusted">
+      <label for="size6">Small-busted</label><br>
+
+    <h3>What dress appeal to you:</h3>
+      <input type="radio" id="dress1" name="dress" value="a-line">
+      <label for="dress1">A-line</label><br>
+      <input type="radio" id="dress2" name="dress" value="ball-gown">
+      <label for="dress2">Ball-gown</label><br>
+      <input type="radio" id="dress3" name="dress" value="mermaid">
+      <label for="dress3">Mermaid</label><br>
+      <input type="radio" id="dress4" name="dress" value="Sheath">
+      <label for="dress4">Sheath</label><br>
+      <input type="radio" id="dress4" name="dress" value="trumpet">
+      <label for="dress4">Trumpet</label><br>
+
+     
+    <h3>Your fashion sense:</h3>
+      <input type="radio" id="fashion" name="fashion" value="comfortable">
+      <label for="fashion">Comfortable</label><br>
+      <input type="radio" id="fashion" name="fashion" value="like-royalty">
+      <label for="fashion">Like-Royalty</label><br>
+      <input type="radio" id="fashion" name="fashion" value="Glamorous">
+      <label for="fashion">Glamorous</label><br>
+      <input type="radio" id="fashion" name="fashion" value="Boho">
+      <label for="fashion">Boho</label><br>
+      <input type="radio" id="fashion" name="fashion" value="classic">
+      <label for="fashion">Classic</label><br>
+      <input type="radio" id="fashion" name="fashion" value="elegant">
+      <label for="fashion">Elegant</label><br>
+     
+     
+    <h3>Your Favourite colour for the dress:</h3>
+      <input type="radio" id="colour" name="colour" value="purewhite">
+      <label for="colour">Pure White</label><br>
+      <input type="radio" id="colour" name="colour" value="ivory">
+      <label for="colour">Ivory</label><br>
+      <input type="radio" id="colour" name="colour" value="cream">
+      <label for="colour">Creame</label><br>
+      <input type="radio" id="colour" name="colour" value="champagne">
+      <label for="colour">Champagne</label><br>
+      <input type="radio" id="colour" name="colour" value="nude">
+      <label for="colour">Nude</label><br>
+      <input type="radio" id="colour" name="colour" value="mocha">
+      <label for="colour">Mocha</label><br>
+
+    <h3>Rental terms & conditions</h3>
+     <ul>
+        <li>The RENTER shall keep and maintain the rented wedding dress during the terms of the rental at her own cost 
+        and expense. She shall keep the wedding dress in a good state of repair, normal wear and tear excepted.</li>
+        <li>The RENTER shall pay the OWNER full compensation for replacement and repair of wedding dress which is not returned because it is lost or stolen or any wedding dress which is damaged and in need of repair to put it in the same condition it was in at the time of rental,
+             normal wear and tear excepted.</li>
+        <li>The wedding dress shall be delivered to RENTER and returned to OWNER at the RENTER'S risk, cost and expense. If a periodic rental rate is charged by OWNER, rental charges are billed to the RENTER for each period or portions of the period from the time the wedding dress is delivered is delivered to 
+            RENTER for the full term even if the wedding dress is returned before the end of the term. 
+            If the wedding dress is not returned during or at the end of the term, then the rental charges shall continue on
+             a full-term basis for any additional term or portion thereof until the wedding dress is returned.</li>
+       <li>These terms are accepted by the RENTER upon delivery of the terms to the RENTER or the agent or other representative of RENTER.</li>
+    </ul>
+    <br>
+
+    <h3>I Agree and Accept the rental terms and conditions</h3>
+    <input type="radio" id="terms" name="terms" value="yes i agree">
+    <label for="terms">Yes I Agree</label>
+    <input type="radio" id="terms " name="terms" value="no i don't">
+    <label for="terms">No I Don't </label><br>
+
+
+      <input type="submit" value="Submit">
+    </form>
+    </section>
+    </body>
+  
+
+
+<!--footer starts-->
+<footer>
+    <div class="footer-content">
+        <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Collections</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Book</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy;2023; All rights reserved Designed by<span class="designer">Lavitta</span></p>
+  
+      </div>
+      
+   
+  </footer>
